@@ -12,7 +12,8 @@ const Videos = ({ videos, direction }) => {
       sx={{
         display: 'grid',
         gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-        gap: 2, 
+        gap: 2,
+        justifyContent: 'center',
       }}
     >
       {videos.map((item) => (
