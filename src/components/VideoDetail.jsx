@@ -52,7 +52,7 @@ const VideoDetail = () => {
             </Stack>
           </Box>
         </Box>
-        <Box px={2} py={{ md: 1, xs: 5 }} flex={1}>
+        <Box px={2} py={{ md: 1, xs: 5}} flex={0}>
           <Videos videos={videos} direction="column" />
         </Box>
       </Stack>
